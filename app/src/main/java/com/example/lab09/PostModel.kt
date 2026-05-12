@@ -8,5 +8,5 @@ data class PostModel(
     @SerializedName("title") val title: String,
     @SerializedName("body") val body: String,
     @SerializedName("link") val link: String?,
-@SerializedName("comment_count") val commentCount: Int?
+    @SerializedName("comment_count") val commentCount: Int?
 )
